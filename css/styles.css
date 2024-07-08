@@ -77,7 +77,8 @@ margin: 150px 10px 10px 0px;
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+  flex: 0 1 00px;
+  margin-left: 100px;
 }
 .navigation-list {
   list-style-type: none;
