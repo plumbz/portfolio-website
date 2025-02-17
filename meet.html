@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Plumby Adelaine- Portfolio</title>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    </head>
+
+    <header class="page-header">
+        <img class="page-header__item" src="./img/logo.png"
+            alt="Personal logo of Plumby Adelaine, a text logo in uppercase letters that consists of my name">
+
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <section>
+
+
+            <div class="meet">
+                <div class="meet_item">
+                    <h2> Meet App</h2>
+                    <p>is serverless Progressive Web App (PWA) designed to help users discover and track events, this
+                        can be both access via online or offline</p>
+                    <img src="./img/sc-work.jpg">
+                </div>
+            </div>
+            <div class="project-item project-descr">
+                <div class="project-inner">
+                    <h3>Project Objective</h3>
+                    <p>The objective is to build a serverless, progressive web application with React using a test-
+                        driven technique (TDD), the app offers features like:</p>
+                    <ul>
+                        <li>Search for events by city</li>
+                        <li>View event details &amp; manage how many events are displayed</li>
+                        <li>Offline functionality - access cached events without an internet connection</li>
+                        <li>Add the app to your home screen for quick access</li>
+                        <li>Interactive charts to visualize event trends by city &amp; category</li>
+                    </ul>
+                </div>
+                <div class="project-inner">
+                    <h3>Technical Requirements</h3>
+                    <ul>
+                        <li><span>React</span> - A fast, responsive front-end framework</li>
+                        <li><span>AWS Lambda</span> - A serverless backend for handling data requests</li>
+                        <li><span> Google Calendar API</span> - Fetching real-time event data </li>
+                        <li><span>Jest &amp; Cucumber</span> - Ensuring quality through rigorous testing</li>
+                        <li><span>OAuth2</span> - Secure authentication </li>
+                        <li><span>Recharts</span> - For beautiful data visualizations</li>
+                        <li><span>Service Workers</span> - Enabling offline access</li>
+                        <li><span>Vercel</span> - For deployment </li>
+                    </ul>
+                </div>
+
+                <div class="btn-box">
+                    <div class="button__link project__button"><a href="https://github.com/plumbz/meet" target="_blank"
+                            rel="noreferrer">Meet on GitHub</a>
+                    </div>
+
+                    <div class="button__link project__button"><a href="https://meet-tau-neon.vercel.app/"
+                            target="_blank" rel="noreferrer">Hosted website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <img src="./img/github.logo.png" alt="logo">
+                <img src="./img/yahoo.logo.png" alt="logo">
+                <img src="./img/fb.logo.png" alt="logo">
+            </div>
+        </footer>
+        <script src="js/tota11y.min.js"></script>
+    </body>
+
+</html>
