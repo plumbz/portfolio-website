@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px 30px;
+    background-color: #ebd9d9;
+    color: #064242;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #fff9f9;
+    color: #064242;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.project_img {
+    width: 100%;
+    /* or try 80%, 60%, etc. */
+    max-width: 700px;
+    /* controls the max size */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
